@@ -4,3 +4,8 @@
     width: 40%;
     display: inline-block;
 }
+
+img {
+    height: 50%;
+    width: 50%;
+}
