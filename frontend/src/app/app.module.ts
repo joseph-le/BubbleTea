@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { RostersComponent } from './rosters/rosters.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ScheduleComponent,
-    RostersComponent
+    RostersComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
