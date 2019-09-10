@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { RostersComponent } from './rosters/rosters.component';
 import { ScheduleComponent } from './schedule/schedule.component';
-import { ProfileComponent } from './profile/profile.component';
+import { LoginComponent } from './login/login.component'
 
 const routes: Routes = [
   {
@@ -14,8 +14,8 @@ const routes: Routes = [
     component: RostersComponent
   },
   {
-    path: 'profile',
-    component: ProfileComponent
+    path: 'login',
+    component: LoginComponent
   },
   {
     path: '',
@@ -27,6 +27,7 @@ const routes: Routes = [
     redirectTo: 'schedule',
     pathMatch: 'full'
   }
+
 ];
 
 @NgModule({
