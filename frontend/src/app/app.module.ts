@@ -6,7 +6,9 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { RostersComponent } from './rosters/rosters.component';
+import { ProfileComponent } from './profile/profile.component';
 import { LoginComponent } from './login/login.component';
+
 
 @NgModule({
   declarations: [
@@ -14,6 +16,7 @@ import { LoginComponent } from './login/login.component';
     HeaderComponent,
     ScheduleComponent,
     RostersComponent,
+    ProfileComponent,
     LoginComponent
   ],
   imports: [
