@@ -1,20 +1,23 @@
-.navbar {
-    background-color: lightblue;
-}
+/*.navbar {*/
+/*  justify-content: space-between;*/
+/*}*/
 
-.navbar-brand {
-    display: inline-block;
-    vertical-align: middle;
-}
+/*.home-image img {*/
+/*  width:65px;*/
+/*  position: relative;*/
+/*}*/
 
-.navbar-item {
-    display: inline-block;
-    font-size: 3em;
-    margin-right: 100px;
-    vertical-align: middle;
-}
 
-img {
-    height: 200px;
-    width: 200px;
-}
+/*span {*/
+/*  padding-right: 1rem;*/
+
+/*}*/
+
+/*.filler {*/
+/*  flex: 1 1 auto;*/
+/*}*/
+/*.gap {*/
+/*  margin-right: 10px;*/
+/*}*/
+
+

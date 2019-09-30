@@ -1,9 +1,30 @@
 <p>
-Username:
-<input type="text" name="username">
+  Username:
+  <input type="password" name="username">
 <br><br>
 Password:
 <input type="password" name="username">
 <br><br>
-<input type="submit" value="Submit">
+  <button (click)="onAddPost()">Submit</button>
 </p>
+
+<!--<mat-accordion multi="true">-->
+<!--  <mat-expansion-panel *ngFor="let post of posts">-->
+<!--    <mat-expansion-panel-header>-->
+<!--      {{ post.title }}-->
+<!--    </mat-expansion-panel-header>-->
+<!--    {{ post.content }}-->
+<!--  </mat-expansion-panel>-->
+<!--</mat-accordion>-->
+
+
+<!--<br>-->
+<!--<br>-->
+<!--<mat-card>-->
+<!--  <mat-form-field>-->
+<!--    <textarea matInput rows="6" [(ngModel)]="enteredValue"></textarea>-->
+<!--  </mat-form-field>-->
+<!--  <button mat-raised-button color="primary" (click)="onAddPost()">Save Post</button>-->
+<!--</mat-card>-->
+<!--<p *ngFor="let post of posts">{{post.title}}</p>-->
+<!--{{enteredValue}}-->
